@@ -1,0 +1,68 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky !important;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky !important;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: whitesmoke;
+    cursor: pointer;
+    position: sticky !important;
+    
+  }
+  .appBar{
+    background: rgb(3,168,119) !important;
+    background: linear-gradient(90deg, rgba(3,168,119,1) 2%, rgba(15,111,111,1) 93%) !important;
+    position: sticky !important;
+  }
+  .topRight{
+      display: flex;
+      align-items: center;
+      position: sticky !important;
+  }
+  
+  .topbarIconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+    position: sticky !important;
+  }
+  
+  .topIconBadge{
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      top: -5px;
+      right: 0px;
+      background-color: red;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      position: sticky !important;
+  }
+  
+  .topAvatar{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      position: sticky !important;
+  }
